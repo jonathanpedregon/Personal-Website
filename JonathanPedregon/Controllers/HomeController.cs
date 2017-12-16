@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JonathanPedregon.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -22,8 +23,20 @@ namespace JonathanPedregon.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            var model = new ContactViewModel();
+            return View(model);
+        }
 
+        public ActionResult Sites()
+        {
+            var site1 = new SiteViewModel("http://pluspng.com/img-png/adidas-3504.png", "jonathanpedregon.com", "December 14, 2017", "Personal site intended to showcase achievements");
+            var site2 = new SiteViewModel("http://pluspng.com/img-png/adidas-3504.png", "Scorekeeper","Soon", "Planned scorekeeper for card games");
+            var sites = new List<SiteViewModel>() { site1, site2 };
+            return View(sites);
+        }
+
+        public ActionResult Resume()
+        {
             return View();
         }
     }

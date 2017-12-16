@@ -1,0 +1,28 @@
+﻿body {
+    padding-left: 14em;
+    padding-right: 14em;
+}
+
+.title {
+    text-align: center;
+    color: #004225;
+}
+
+.name {
+    text-align: center;
+    color: #004225;
+    font-size: 20px;
+}
+
+.sectionHeader {
+    color: #004225;
+    font-size: 18px;
+}
+
+p ul li {
+    font-size: 16px;
+}
+
+hr {
+    border-color: #004225;
+}

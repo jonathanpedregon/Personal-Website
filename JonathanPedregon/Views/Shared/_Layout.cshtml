@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
-    <link rel="shortcut icon" href="~/Images/money.png">
+    <link rel="shortcut icon" href= "~/Images/money.png">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Scripts/Global/Site.js")
 
 </head>
 <body>
@@ -21,9 +22,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Test 1", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Test 2", "About", "Home")</li>
-                    <li>@Html.ActionLink("Test 3", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
                 </ul>
             </div>
         </div>
