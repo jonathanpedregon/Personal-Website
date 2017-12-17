@@ -6,12 +6,18 @@
 @Styles.Render("~/Content/Resume.css")
 
 <body>
-    <div>
-        <h1 class="title">Resume</h1>
-        <p style="padding-bottom: 4ex; "></p>
+    <div class="row titleContainer">
+        <div class="col-md-4 col-md-offset-4 title">
+            <p>Resume</p>
+        </div>
+        <div class="col-md-4" id="DownloadLinkContainer">
+            <a href="~/Files/JonathanPedregonResume.pdf" download="JonathanPedregonResume">Download Resume</a>
+        </div>
+    </div>
 
-        <p class="name"><strong>Jonathan Pedregon</strong></p>
-        <p>Full stack software developer utilizing ASP.NET to create responsive web pages. Business Analyst experience has given me a unique perspective of the software delivery cycle.</p>
+    <div>
+        <p class="name ">Jonathan Pedregon</p>
+        <p style="padding-bottom: 3ex; "></p>
         <hr />
         <p class="sectionHeader"><strong>Experience</strong></p>
         <p><strong>Reynolds &amp; Reynolds (IDS),</strong> Draper, UT - Software Developer</p>
@@ -80,5 +86,4 @@
         <p>June 2017 - August 2018</p>
         <p>Transferred to complete Computer Science degree.</p>
     </div>
-    
 </body>

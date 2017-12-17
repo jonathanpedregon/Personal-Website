@@ -1,0 +1,22 @@
+﻿body {
+}
+
+#PageLinkContainer {
+    text-align:center;
+}
+
+.pageLinks {
+    font-size: 24px;
+    color: #004225;
+    padding-left: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titleContainer {
+    background-color: #004225;
+    color: white;
+}

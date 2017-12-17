@@ -6,12 +6,23 @@
 .title {
     text-align: center;
     color: #004225;
+    font-size: 24px;
 }
 
 .name {
-    text-align: center;
     color: #004225;
     font-size: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.titleContainer {
+    padding-top: 1em;
+    vertical-align: middle;
+}
+
+.nameContainer {
+    text-align: center;
 }
 
 .sectionHeader {
@@ -25,4 +36,9 @@ p ul li {
 
 hr {
     border-color: #004225;
+}
+
+#DownloadLinkContainer {
+    text-align: right;
+    padding-top: .5em;
 }
